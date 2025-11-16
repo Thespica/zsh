@@ -1,7 +1,7 @@
-# install zsh
+# install zsh for user
 ```bash
 sudo apt install zsh
-sudo chsh -s /bin/zsh john
+sudo chsh -s /bin/zsh <user-name>
 ```
 
 # install and configure oh-my-zsh
@@ -31,7 +31,8 @@ ZSH_THEME="crcandy"
 # configure with my config
 
 ```
-cd ~
-git clone https://github.com/Thespica/.config.git
+cd ~/.config
+git clone https://github.com/Thespica/zsh.git
+echo "source ~/.config/zsh/zshrc" >> ~/.zshrc
 ```
 
